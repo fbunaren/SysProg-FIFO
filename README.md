@@ -2,6 +2,7 @@
 SysProg FIFO Group Assignment
 
 ![FIFO Meet](logo.jpg)
+
 SSH Based Streaming Platform
 
 Team Members:
