@@ -1,0 +1,12 @@
+clear
+cat logo.txt
+
+echo "======================"
+echo "Menu: "
+echo "======================"
+echo "1. Start Streaming"
+echo "2. Watch Streamer"
+echo "3. Configure Webcam"
+echo "4. Configure Sound"
+echo 
+echo "Choose 1-4:"
