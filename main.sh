@@ -12,7 +12,7 @@ echo
 echo "Choose 1-4:"
 read CHOICE
 
-case CHOICE in
+case $CHOICE in
 
 	1)
 		bash stream.sh
@@ -23,9 +23,15 @@ case CHOICE in
  	;;
 
 	3)
+		echo "===================="
+		echo "WEBCAM CONFIGURATION"
+		echo "===================="
+	;;
+
+        4)
 		echo "==================="
-		echo "SOUND CONFIGURATION"
-		echo "==================="
+                echo "SOUND CONFIGURATION"
+                echo "==================="
 	;;
 
 	*)
