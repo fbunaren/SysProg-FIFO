@@ -1,5 +1,4 @@
 while true
 do
-	sleep 0.1
-	cat video.txt
+	jp2a video.jpg --colors --grayscale --clear 2> /dev/null
 done

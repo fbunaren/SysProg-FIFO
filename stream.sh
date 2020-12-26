@@ -1,6 +1,5 @@
 while true
 do
-	v4l2-ctl --stream-mmap --stream-count=1 --stream-to=file.jpg
-	jp2a file.jpg --colors --grayscale --clear  --output=video.txt
-	cat video.txt
+	v4l2-ctl --stream-mmap --stream-count=1 --stream-to=video.jpg
+	jp2a video.jpg --colors --grayscale --clear
 done
