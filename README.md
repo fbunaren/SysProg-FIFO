@@ -12,5 +12,8 @@ Team Members:
 
 Usage
 ```
+chmod +x fifo-meet
+chmod +x stream.sh
+chmod +x watch.sh
 ./fifo-meet
 ```
