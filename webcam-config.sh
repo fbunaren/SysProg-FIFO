@@ -1,13 +1,14 @@
 #!/bin/bash
 echo "==================="
 echo "WEBCAM CONFIGURATION"
+echo "Driver: uvcvideo"
 echo "==================="
-echo "1. Enable Intel HD audio interface."
-echo "2. Disable Intel HD audio interface."
-echo ""
-echo "3. Automatic power-saving timeout"
 
-echo ""
-echo "Choose 1-3:"
-read SOUND_CHOICE
+BIN = 0
 
+read -p "1. Set Fix Bandwidth (y/n)" FIX_BANDWIDTH
+read -p "2. Restrict Frame Rate (y/n)" RESTRICT_FRAME_RATE
+
+if ["$FIX_BANDWIDTH" = "y"]; then
+	
+fi
