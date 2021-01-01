@@ -26,11 +26,13 @@ case $SOUND_CHOICE in
         ;;
 
         3)
-                echo 10 > /sys/module/snd_hda_intel/parameters/power_save
+                sudo rmmod snd_hda_intel
+		sudo modprobe snd_hda_intel power_save=10
         ;;
 
         4)
-                echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+		sudo rmmod snd_hda_intel
+                sudo modprobe snd_hda_intel power_save=0
         ;;
 
 esac
