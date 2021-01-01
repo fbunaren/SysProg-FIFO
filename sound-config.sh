@@ -15,11 +15,14 @@ read SOUND_CHOICE
 case $SOUND_CHOICE in
 
         1)
-                echo 1 > /sys/module/snd_hda_intel/parameters/enable
+                sudo rmmod snd_hda_intel
+		sudo modprobe snd_hda_intel enable=Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+
         ;;
 
         2)
-                echo 0 > /sys/module/snd_hda_intel/parameters/enable
+                sudo rmmod snd_hda_intel
+                sudo modprobe snd_hda_intel enable=N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
         ;;
 
         3)
