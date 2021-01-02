@@ -10,6 +10,12 @@ SSH Based Streaming Platform
 - Fransiscus Emmanuel Bunaren 1806173506
 - Oliver M. Fadhlurrahman 1806241154
 
+## Dependency Installation
+to install all the required dependencies, please use the command
+```
+sudo bash setup.sh
+```
+
 ## Usage
 ```
 chmod +x fifo-meet
